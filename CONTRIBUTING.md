@@ -6,8 +6,9 @@ Thank you for your interest in contributing! Please take a moment to read these 
 
 ## 🧭 Getting Started
 
-1. **Fork** the repository and clone your fork locally.
-2. Go into the folder 
+1) Maybe lets keep marking this repo a star as first the step🚀
+2. **Fork** the repository and clone your fork locally.
+3. Go into the folder 
 ```
 cd cancer-tracker-jipmer
 ```

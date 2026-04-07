@@ -135,3 +135,10 @@ The codebase is designed to be modular, maintainable, and scalable, following mo
 ## Assets Folder
 It contains a sample excel file that showcase how the importing data should look like.
 
+## Contributors ✨
+
+Thanks goes to these wonderful people:
+
+<!-- ALL-CONTRIBUTORS-LIST:START -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+

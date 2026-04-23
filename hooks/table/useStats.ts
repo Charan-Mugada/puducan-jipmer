@@ -28,10 +28,10 @@ export function useStats<TableDataType>({
                 if (row.assignedAsha && row.assignedAsha !== 'none') stats.assigned++
                 else stats.unassigned++
 
-                if ((row.status || '').toLowerCase() === 'alive') stats.alive++
+                // The field in Firestore is "patientStatus", not "status"
+                if ((row.patientStatus || '').toLowerCase() === 'alive') stats.alive++
                 else if (
-                    (row.status || '').toLowerCase() === 'death' ||
-                    (row.status || '').toLowerCase() === 'not alive'
+                    (row.patientStatus || '').toLowerCase() === 'not alive'
                 ) stats.deceased++
             }
             if (!isHospitalTab) {

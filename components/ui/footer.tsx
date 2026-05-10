@@ -35,7 +35,7 @@ export default function Footer() {
 
                 <div className="mt-3 flex justify-center">
                     <a
-                        href="https://www.websitecarbon.com"
+                        href="https://www.websitecarbon.com/website/cancer-tracker-jipmer-vercel-app-home/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center gap-2 rounded-full border border-green-300 bg-green-50 px-3 py-1 text-xs text-green-700 dark:border-green-700 dark:bg-green-950 dark:text-green-300"

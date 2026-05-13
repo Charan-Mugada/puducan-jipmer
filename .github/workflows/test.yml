@@ -22,4 +22,8 @@ jobs:
 
             - run: pnpm install --frozen-lockfile
 
-            - run: pnpm test
+            - run: pnpm test # vitest unit tests
+
+            - run: pnpm exec playwright install --with-deps chromium
+
+            - run: pnpm test:e2e # playwright e2e tests
